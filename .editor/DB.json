@@ -789,6 +789,43 @@
 				"id": 33,
 				"type": "Addon",
 				"branch": 1
+			},
+			"34": {
+				"data": {
+					"id": 34,
+					"name": "Server",
+					"disabled": false,
+					"useInEditor": true,
+					"port": 8081,
+					"offlineMode": false,
+					"path": "server",
+					"useSocket": true,
+					"editor": {
+						"group": "Harlem-Cardboard",
+						"type": "Plugin",
+						"origin": "Harlem-Cardboard",
+						"branch": 1
+					}
+				},
+				"id": 34,
+				"type": "Plugin",
+				"branch": 1
+			},
+			"35": {
+				"data": {
+					"id": 35,
+					"name": "scene",
+					"disabled": false,
+					"editor": {
+						"group": "Harlem-Cardboard",
+						"type": "Addon",
+						"origin": "Harlem-Cardboard",
+						"branch": 1
+					}
+				},
+				"id": 35,
+				"type": "Addon",
+				"branch": 1
 			}
 		},
 		"sub": [],
@@ -796,6 +833,6 @@
 		"parent": 0,
 		"id": 1
 	},
-	"__auto_inc": 34,
+	"__auto_inc": 36,
 	"__branch_id": 1
 }
