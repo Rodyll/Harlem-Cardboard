@@ -789,131 +789,6 @@
 				"id": 33,
 				"type": "Addon",
 				"branch": 1
-			},
-			"34": {
-				"data": {
-					"id": 34,
-					"name": "Server",
-					"disabled": false,
-					"useInEditor": true,
-					"port": 8081,
-					"offlineMode": false,
-					"path": "server",
-					"useSocket": true,
-					"editor": {
-						"group": "Harlem-Cardboard",
-						"type": "Plugin",
-						"origin": "Harlem-Cardboard",
-						"branch": 1
-					}
-				},
-				"id": 34,
-				"type": "Plugin",
-				"branch": 1
-			},
-			"35": {
-				"data": {
-					"id": 35,
-					"name": "scene",
-					"disabled": false,
-					"editor": {
-						"group": "Harlem-Cardboard",
-						"type": "Addon",
-						"origin": "Harlem-Cardboard",
-						"branch": 1
-					}
-				},
-				"id": 35,
-				"type": "Addon",
-				"branch": 1
-			},
-			"36": {
-				"id": 36,
-				"branch": 1,
-				"type": "Texture",
-				"data": {
-					"type": "__enum__.Import.Resource.Type.TEXTURE",
-					"id": 36,
-					"name": "basket_court",
-					"date": 0,
-					"preload": true,
-					"image": "basketcourt.png",
-					"width": 64,
-					"height": 64,
-					"editor": {
-						"color": "#ffffff",
-						"group": "harlem_decor",
-						"sort": 0,
-						"branch": 1,
-						"type": "Texture",
-						"origin": "",
-						"plugin": "Resource"
-					}
-				}
-			},
-			"37": {
-				"branch": 1,
-				"type": "Brush",
-				"data": {
-					"name": "basket_court",
-					"texture": 36,
-					"type": "__enum__.Import.Brush.Type.BASIC",
-					"head": {
-						"offsetX": 0,
-						"offsetY": 0
-					},
-					"footer": {
-						"stages": [],
-						"available": []
-					},
-					"editor": {
-						"color": "#ffffff",
-						"group": "harlem_decor",
-						"sort": 0,
-						"branch": 1,
-						"type": "Brush",
-						"origin": "",
-						"plugin": "Brush"
-					},
-					"id": 37
-				},
-				"id": 37
-			},
-			"38": {
-				"branch": 1,
-				"type": "Entity",
-				"data": {
-					"name": "basket_court",
-					"brush": 37,
-					"type": "__enum__.Import.Entity.Type.GEOMETRY",
-					"body": {
-						"isSaved": true,
-						"type": "__enum__.Import.GameObject.UNKNOWN",
-						"gridSizeX": 1,
-						"gridSizeY": 1,
-						"depthIndex": 0,
-						"useGrid": true,
-						"isVisible": true,
-						"isPaused": false,
-						"isPickable": true,
-						"isRandFrame": false
-					},
-					"footer": {
-						"available": [],
-						"component": []
-					},
-					"editor": {
-						"color": "#ffffff",
-						"group": "harlem_decor",
-						"sort": 0,
-						"branch": 1,
-						"type": "Entity",
-						"origin": "",
-						"plugin": "Entity"
-					},
-					"id": 38
-				},
-				"id": 38
 			}
 		},
 		"sub": [],
@@ -921,6 +796,6 @@
 		"parent": 0,
 		"id": 1
 	},
-	"__auto_inc": 39,
+	"__auto_inc": 34,
 	"__branch_id": 1
 }
